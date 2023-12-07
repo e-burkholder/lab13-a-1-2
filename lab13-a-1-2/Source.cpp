@@ -8,7 +8,10 @@ using namespace std;
 void pressEnterToContinue();
 
 int main() {
-
+	string datafile;
+	cout << "Enter filename: ";
+	cin >> datafile;
+	pressEnterToContinue();
 	return 0;
 }
 
